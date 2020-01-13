@@ -14,7 +14,7 @@ server.get('/', function(request, response) {
 });
 
 // GET info from Users
-
+ 
 server.get('/api/users', (request, response) => {
     Users.find()
     .then(users => {
